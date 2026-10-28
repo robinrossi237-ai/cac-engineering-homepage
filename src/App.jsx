@@ -510,7 +510,10 @@ function Footer() {
       <div className="container footer-inner">
         <Brand footer />
         <nav className="footer-nav" aria-label="Navigation de pied de page"><a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Services</a><a href="#realisations">Réalisations</a><a href="#methodologie">Méthodologie</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
-        <div className="footer-social" aria-label="Contacter CAC"><a href="https://wa.me/237654141053" target="_blank" rel="noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={16} /></a><a href="mailto:construireaucameroun98@gmail.com" aria-label="E-mail"><Icon name="mail" size={16} /></a><a href="tel:+237654141053" aria-label="Téléphone"><Icon name="phone" size={16} /></a><small>© 2026 <a href="https://dekinicode.vercel.app" target="_blank" rel="noreferrer">DeKiniCode</a>. Tous droits réservés.</small></div>
+        <div className="footer-social" aria-label="Contacter CAC"><a href="https://wa.me/237654141053" target="_blank" rel="noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={16} /></a><a href="mailto:construireaucameroun98@gmail.com" aria-label="E-mail"><Icon name="mail" size={16} /></a><a href="tel:+237654141053" aria-label="Téléphone"><Icon name="phone" size={16} /></a></div>
+      </div>
+      <div className="footer-credit">
+        <small>© 2026 <a className="footer-dekinicode" href="https://dekinicode.vercel.app" target="_blank" rel="noreferrer">DeKiniCode</a>. Tous droits réservés.</small>
       </div>
     </footer>
   );
