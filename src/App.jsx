@@ -513,7 +513,7 @@ function Footer() {
         <div className="footer-social" aria-label="Contacter CAC"><a href="https://wa.me/237654141053" target="_blank" rel="noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={16} /></a><a href="mailto:construireaucameroun98@gmail.com" aria-label="E-mail"><Icon name="mail" size={16} /></a><a href="tel:+237654141053" aria-label="Téléphone"><Icon name="phone" size={16} /></a></div>
       </div>
       <div className="footer-credit">
-        <small>© 2026 <a className="footer-dekinicode" href="https://dekinicode.vercel.app" target="_blank" rel="noreferrer">DeKiniCode</a>. Tous droits réservés.</small>
+        <small>© 2026 <a href="https://dekinicode.vercel.app" target="_blank" rel="noreferrer">DeKiniCode</a>. Tous droits réservés.</small>
       </div>
     </footer>
   );
