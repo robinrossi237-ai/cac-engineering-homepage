@@ -510,7 +510,7 @@ function Footer() {
       <div className="container footer-inner">
         <Brand footer />
         <nav className="footer-nav" aria-label="Navigation de pied de page"><a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Services</a><a href="#realisations">Réalisations</a><a href="#methodologie">Méthodologie</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
-        <div className="footer-social" aria-label="Contacter CAC"><a href="https://wa.me/237654141053" target="_blank" rel="noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={16} /></a><a href="mailto:construireaucameroun98@gmail.com" aria-label="E-mail"><Icon name="mail" size={16} /></a><a href="tel:+237654141053" aria-label="Téléphone"><Icon name="phone" size={16} /></a><small>© 2025 CONSTRUIRE AU CAMEROUN. Tous droits réservés. · <a href="https://dekinicode.vercel.app" target="_blank" rel="noreferrer">Conçu par DeKiniCode</a></small></div>
+        <div className="footer-social" aria-label="Contacter CAC"><a href="https://wa.me/237654141053" target="_blank" rel="noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={16} /></a><a href="mailto:construireaucameroun98@gmail.com" aria-label="E-mail"><Icon name="mail" size={16} /></a><a href="tel:+237654141053" aria-label="Téléphone"><Icon name="phone" size={16} /></a><small>© 2026 <a href="https://dekinicode.vercel.app" target="_blank" rel="noreferrer">DeKiniCode</a>. Tous droits réservés.</small></div>
       </div>
     </footer>
   );
@@ -528,16 +528,6 @@ function BackToTop() {
     <button className={`back-to-top${visible ? ' is-visible' : ''}`} type="button" aria-label="Retour en haut de page" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} tabIndex={visible ? 0 : -1}>
       <Icon name="up" size={19} />
     </button>
-  );
-}
-
-function MadeByDeKiniCode() {
-  return (
-    <a className="made-by-dekinicode" href="https://dekinicode.vercel.app" target="_blank" rel="noreferrer" aria-label="Made by DeKiniCode - ouvrir le portfolio">
-      <span className="made-by-mark" aria-hidden="true">D</span>
-      <span className="made-by-copy"><small>Made by</small><strong>DeKiniCode</strong></span>
-      <Icon name="arrow" size={13} className="made-by-arrow" />
-    </a>
   );
 }
 
@@ -560,5 +550,5 @@ export default function App() {
     return () => observer.disconnect();
   }, []);
 
-  return <><Header /><main><Hero /><Services /><About /><TrustSection /><Projects /><Methodology /><FAQ /><Contact /></main><Footer /><BackToTop /><MadeByDeKiniCode /></>;
+  return <><Header /><main><Hero /><Services /><About /><TrustSection /><Projects /><Methodology /><FAQ /><Contact /></main><Footer /><BackToTop /></>;
 }
